@@ -7,6 +7,7 @@
 				v-for="blog in blogs"
 				:title="blog.title"
 				:icon="blog.icon"
+				:content="blog.content"
 				
 				:key="blog.id"
 				@enlarge-text="increaseFontSize"
